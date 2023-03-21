@@ -28,3 +28,22 @@
 .rodape {
   text-align: right;
 }
+
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .footer-texto {
+    margin-bottom: 50px;
+  }
+  .footer-contato {
+    margin-bottom: 50px;
+  }
+  .rodape {
+    text-align: center;
+  }
+  .rodape-dev {
+    text-align: center;
+  }
+}
