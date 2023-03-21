@@ -1,0 +1,30 @@
+.footer-bg {
+  background: var(--c12);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  padding: 100px 20px 10px 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer::before {
+  content: "";
+  width: 128px;
+  height: 128px;
+  background: url("../../img/detalhe-intro.svg") no-repeat center;
+  position: absolute;
+  top: -64px;
+}
+
+.footer-contato li {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.rodape {
+  text-align: right;
+}
