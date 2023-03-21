@@ -19,8 +19,8 @@
   --c11: #111111;
   --c12: #000000;
 
-  --grandiente-btn: linear-gradient(#29c74b, #75ea3d);
-  --grandiente-btn-hover: linear-gradient(#ffb60d, #e59317);
+  --gradiente-btn: linear-gradient(#29c74b, #75ea3d);
+  --gradiente-btn-hover: linear-gradient(#ffb60d, #e59317);
 }
 
 .p1 {
