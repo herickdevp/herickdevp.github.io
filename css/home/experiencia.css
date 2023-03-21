@@ -58,3 +58,41 @@
   padding: 5px 10px;
   border-radius: 4px;
 }
+
+.ponto {
+  color: transparent;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experiencia-subtitulo {
+    max-width: initial;
+    font-size: 3rem;
+    text-transform: initial;
+    color: #141414;
+  }
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+  .empresa-data {
+    order: 1;
+    position: initial;
+    width: initial;
+    text-align: left;
+  }
+  .ponto {
+    color: var(--p1);
+  }
+}
+
+@media (max-width: 450px) {
+  .experiencia-empresa {
+    grid-template-columns: 1fr;
+  }
+  .empresa-ferramentas {
+    gap: 10px;
+  }
+}
