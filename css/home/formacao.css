@@ -1,0 +1,16 @@
+.formacao-bg {
+  background: var(--c11);
+}
+
+.formacao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  padding: 70px 20px 70px 20px;
+}
+
+.formacao-subtitulo {
+  word-break: break-all;
+  max-width: 5ch;
+  text-transform: uppercase;
+}

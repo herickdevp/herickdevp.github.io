@@ -1,0 +1,28 @@
+.introducao-bg {
+  background-color: var(--c12);
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  padding: 40px 20px 70px 20px;
+  align-items: center;
+}
+
+.introducao h1 {
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.introducao h1::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: url(../../img/detalhe-intro.svg);
+  position: absolute;
+  top: -15px;
+  left: -35px;
+  z-index: -1;
+}
