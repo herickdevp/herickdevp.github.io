@@ -86,3 +86,24 @@
 .idiomas h3::before {
   background: url("/img//idiomas.svg") no-repeat center center;
 }
+
+@media (max-width: 800px) {
+  .formacao-subtitulo {
+    max-width: initial;
+    font-size: 3rem;
+    text-transform: initial;
+    color: #fff;
+  }
+  .formacao {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 80px 20px;
+  }
+  .formacao-texto {
+    font-size: 1.25rem;
+  }
+  .formacao-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}
