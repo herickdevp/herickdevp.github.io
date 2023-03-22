@@ -107,3 +107,9 @@
     margin-bottom: 10px;
   }
 }
+
+@media (max-width: 600px) {
+  .formacao {
+    padding-top: 30px;
+  }
+}
