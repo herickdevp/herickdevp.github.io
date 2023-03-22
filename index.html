@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <!-- script utilizado para caso o JS não carregue, a utilização do site não seja afetadada  -->
+    <script>document.documentElement.classList.add('js')</script>
+
     <title>Herick - Portifólio</title>
 </head>
 
@@ -33,14 +36,14 @@
     </header>
 
     <main class="introducao-bg">
-        <div class="introducao conteiner">
+        <div class="introducao conteiner" data-anima="200">
             <div>
-                <img src="./img/introducao-img.jpg" alt="Imagem de Herick" width="360" height="520">
+                <img src="./img/introducao-img.jpg" alt="Imagem de Herick" width="360" height="520" data-anime="200" class="fadeInLeft">
             </div>
 
             <div class="introducao-conteudo">
-                <h1 class="font-1-xxl c0">Desenvolvedor</br>Front End &</br>UX/UI Designer</h1>
-                <p class="font-2-l-m c5">Localizado no Brasil</p>
+                <h1 class="font-1-xxl c0 fadeInRight" data-anime="400">Desenvolvedor</br>Front End &</br>UX/UI Designer</h1>
+                <p class="font-2-l-m c5 fadeInRight" data-anime="600">Localizado no Brasil</p>
             </div>
         </div>
     </main>
@@ -144,6 +147,9 @@
             <p class="rodape-dev font-1-s c0">Desenvolvido por <a class="p1" href="https://www.linkedin.com/in/herick-silva-36b440134/" target="_blank">Herick Silva</a></p>
         </div>
     </footer>
+
+    <script src="./js/plugins/simple-anime.js"></script>; <!-- a tag do plugin sempre tem que ser colocada antes da tag do js -->
+    <script src="./js/script.js"></script>
 
 </body>
 
