@@ -46,25 +46,28 @@
 }
 
 .menuMobile {
-  /* display: none; */
   visibility: hidden;
   opacity: 0;
   background: var(--c11);
   border-radius: 4px 0px 4px 4px;
   position: absolute;
   left: -80px;
+  top: 40px;
   transition: 0.4s;
 }
 
 .menuMobile a {
-  padding: 8px 14px;
+  padding: 9px 14px;
   display: block;
 }
 
 .ativo {
-  /* display: block; */
   visibility: visible;
   opacity: 1;
+}
+
+.troca {
+  display: none;
 }
 
 @media (max-width: 800px) {
