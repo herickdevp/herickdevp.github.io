@@ -25,8 +25,12 @@
   background: var(--c1);
   border-radius: 4px;
   position: relative;
+  transition: 500ms;
 }
 
+.experiencia-empresa:hover {
+  background: var(--c2);
+}
 .experiencia-empresa::before {
   content: "";
   width: 4px;
